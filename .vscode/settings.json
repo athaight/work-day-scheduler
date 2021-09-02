@@ -1,5 +1,6 @@
 {
     "workbench.colorCustomizations": {
+
         "activityBar.activeBackground": "#7fb1b3",
         "activityBar.activeBorder": "#f3ebf3",
         "activityBar.background": "#7fb1b3",
@@ -14,5 +15,7 @@
         "titleBar.activeForeground": "#000000",
         "titleBar.inactiveBackground": "#5f9ea099",
         "titleBar.inactiveForeground": "#00000099"
-    }
+    },
+    "workbench.preferredLightColorTheme": "Abyss",
+    "workbench.colorTheme": "Abyss"
 }
