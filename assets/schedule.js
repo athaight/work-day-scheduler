@@ -50,7 +50,8 @@ setInterval(updateBackground, 1000 * 60); // set time miliseconds == 1min
 updateBackground(); // call function
 
 var activities = document.querySelector("textarea"); // select text-area of html
-const data = JSON.parse(localStorage.getItem("day-schedule")) || {}; // retreive save local storage to empty object?
+const data = JSON.parse(localStorage.getItem("day-schedule")) || {data}; // retreive save local storage to empty object?
+const date = new Date();
 
 $(".saveBtn").on("click", function (event) {
   // listen for save button to click
@@ -63,8 +64,5 @@ $(".saveBtn").on("click", function (event) {
   data[id] = val; // add it to our data object
 
   localStorage.setItem("day-schedule", JSON.stringify(data)); // save to local storage
-  
-  // todo WHY THO
-  //  if(localStorage.getItem('day-schedule') || JSON.parse(localStorage.getItem('day-schedule')).length === 0){
-  //  append('textarea', JSON.stringify(data));
+
 });setTimeout
