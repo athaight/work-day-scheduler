@@ -18,14 +18,9 @@ textarea {
     padding: 10px;
   }
 
-  .time-block {
-    text-align: center;
-    border-radius: 15px;
-  }
-
   .row {
     white-space: pre-wrap;
-    height: 80px;
+    height: 85px;
     border-top: 1px solid white;
   }
   
