@@ -6,3 +6,9 @@
 
 <p>Simple day planner with a changing greeting and colored input cells that revolves with the current hour block (morning, afternoon, night),
 and saves entered data to local storage with persistence. 
+  
+   <h2>Preview image of project:</h2>
+<p  align="center">
+<img src="" />
+</p>
+<br>
