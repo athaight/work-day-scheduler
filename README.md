@@ -9,6 +9,6 @@ and saves entered data to local storage with persistence.
   
    <h2>Preview image of project:</h2>
 <p  align="center">
-<img src="" />
+<img src="https://github.com/athaight/work-day-scheduler/blob/main/assets/Work%20Day%20Scheduler%20-%20Google%20Chrome%209_10_2021%205_08_47%20PM.png" />
 </p>
 <br>
